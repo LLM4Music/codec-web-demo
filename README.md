@@ -4,6 +4,17 @@
 
 ## Autoencoder reconstructions
 
+| Model                     | SR / Channel  | Token/sec | Vocab Size | STFT Distance ↓ | MEL Distance ↓ |
+|----------------------------|---------------|-----------|------------|-----------------|----------------|
+| DAC (9)                    | 44.1kHz / 1   | 774       | 9216       | 0.96            | 0.53           |
+| DAC (1)                    | 44.1kHz / 1   | 86        | 1024       | 1.46            | 1.18           |
+| WavTokenizer               | 24kHz / 1     | 75        | 4096       | 1.26            | 0.90           |
+| EnCodec (4)                | 32kHz / 1     | 200       | 8192       | 1.24            | 0.88           |
+| Stable Audio Open          | 44.1kHz / 2   | 22        | -          | 1.30            | 0.78           |
+| - Add Kmeans               | 44.1kHz / 2   | 22        | 8192       | 2.76            | 2.34           |
+| - Add Product Quantization | 44.1kHz / 2   | 22        | 8192       | 2.07            | 1.66           |
+| - Add Vector Quantization  | 44.1kHz / 2   | 22        | 8192       | 2.05            | 1.68           |
+
 
 We compare the performance of various codecs using the Song Describer Dataset.
 
