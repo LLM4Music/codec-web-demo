@@ -4,10 +4,8 @@
 
 ## Autoencoder reconstructions
 
+
 We compare the performance of various codecs using the Song Describer Dataset.
-
-
-## Audio Codec Comparison
 
 | Model | 364090 | 973498 | 1007274 |
 | ----- | ------ | ------ | ------- |
