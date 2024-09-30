@@ -18,10 +18,10 @@
 
 ## Model Details
 
-- DAC: Used the 44kHz model.(DAPS, CommonVoice, VCTK, MusDB, MTG-Jamendo, Audioset)
-- WavTokenizer: Utilized the 10,000 Hours model, which was trained on Speech, Audio, and Music datasets (including LibriTTS, VCTK, CommonVoice, LibriLight, Audioset, Jamendo, and MusDB).
+- DAC: Used the 44kHz model.(DAPS, CommonVoice, VCTK, MusDB, **MTG-Jamendo**, Audioset)
+- WavTokenizer: Utilized the 10,000 Hours model, which was trained on Speech, Audio, and Music datasets (including LibriTTS, VCTK, CommonVoice, LibriLight, Audioset, **MTG-Jamendo**, and MusDB).
 - EnCodec: Employed the version used in MusicGen (trained on FMA and a private dataset).
-- Stable Audio Open: Trained on FMA, FreeSound, and Creative Commons datasets.
+- Stable Audio Open: Trained on FMA, Freesound datasets.
 - Kmeans: Applied 8192 clusters.
 - Product Quantization (PQ): Implemented with 8 sub-quantizers and 10-bit quantization, resulting in 8192 clusters.
 - Vector Quantization (VQ): Added codebook, commitment, and reconstruction loss without autoencoder fine-tuning.
