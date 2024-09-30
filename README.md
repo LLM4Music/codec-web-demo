@@ -1,8 +1,6 @@
-# Codec Web Demo
-
 ⚠️ *Warning: This website may not function properly on Safari. For the best experience, please use Google Chrome.*
 
-⚠️ Main Reference: [Stable Codec Demo](https://github.com/Stability-AI/stable-codec-demo)
+⚠️ *Main Reference: [Stable Codec Demo](https://github.com/Stability-AI/stable-codec-demo)*
 
 ## Autoencoder reconstructions
 
